@@ -1,0 +1,537 @@
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ cd
+cd              cdosys.dll      cdprt.dll       cdpusersvc.dll
+cdd.dll         cdp.dll         cdpsvc.dll
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ cd
+cd              cdosys.dll      cdprt.dll       cdpusersvc.dll
+cdd.dll         cdp.dll         cdpsvc.dll
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ c:
+bash: c:: command not found
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ cd
+Display all 96 possibilities? (y or n)
+'
+.PyCharmCE2019.3/
+.atom/
+.conda/
+.condarc
+.config/
+.continuum/
+.eclipse/
+.gitconfig
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.matplotlib/
+.octave_hist
+.opera/
+.p2/
+.python_history
+.spyder-py3/
+.vivaldi_reporting_data
+.vscode/
+3D Objects/
+3_1_pandas-series-lectures-notebook.ipynb
+4_1_pandas-dataframes-lectures-notebook.ipynb
+4_2_lending-company-data.zip
+--More--     ^C
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ dir
+'
+3D\ Objects
+3_1_pandas-series-lectures-notebook.ipynb
+4_1_pandas-dataframes-lectures-notebook.ipynb
+4_2_lending-company-data.zip
+AppData
+Application\ Data
+Contacts
+Cookies
+Curves.png
+Data_1.csv
+Documents
+Downloads
+Dropbox
+Favorites
+Google\ Drive
+IntelGraphicsProfiles
+Jedi
+Lending-company.csv
+Links
+Local\ Settings
+Location.csv
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+New\ Text\ Document.txt
+OneDrive
+Pandas_Data365.ipynb
+PrintHood
+Pycharm\ 2021
+PycharmProjects
+Recent
+Roaming
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+The\ Sine\ Curve.png
+Untitled.ipynb
+Untitled1.ipynb
+Untitled10.ipynb
+Untitled11.ipynb
+Untitled12.ipynb
+Untitled13.ipynb
+Untitled14.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled7.ipynb
+Untitled8.ipynb
+Untitled9.ipynb
+Videos
+anaconda3
+annual-enterprise-survey-2020-financial-year-provisional-csv.csv
+ansel
+eclipse
+effects-of-covid19-on-trade-at-13-october-2021-provisional.csv
+functions.png
+kalamassery\ btr.xlsx
+l.bat.txt
+maxima
+my_figure.png
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+pandas-Series-Exercises.ipynb
+pip3
+seaborn-data
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ cd D:\Github\Gitf
+bash: cd: D:GithubGitf: No such file or directory
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+$ cd 'D:\Github\Gitf'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ dir
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ mkdir not.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ remove not.txt
+bash: remove: command not found
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ rm not.txt
+rm: cannot remove 'not.txt': Is a directory
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ mkdir local
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf
+$ cd local
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local
+$ git init
+Initialized empty Git repository in D:/Github/Gitf/local/.git/
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@DESKTOP-V6T8FT3.(none)')
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ ^C
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$   git config --global user.name "Your Name"
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ ^C
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$    git config --global user.name "Your Name"
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@DESKTOP-V6T8FT3.(none)')
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ ^C
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git config --global user.name "Asus"
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@DESKTOP-V6T8FT3.(none)')
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git config user.email 'mathlearner2002@gmail.com'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git config user.name 'Asus'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add New\ Text\ Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'newchange'
+[master (root-commit) 1a272a3] newchange
+ 1 file changed, 2 insertions(+)
+ create mode 100644 New Text Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   New Text Document.txt
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'made changes'
+[master b530ece] made changes
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout -b new
+Switched to a new branch 'new'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git commit -m 'made first change in new branch'
+On branch new
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+Switched to branch 'master'
+M       New Text Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout new
+Switched to branch 'new'
+M       New Text Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git commit -m 'oo'
+[new 81e2772] oo
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git commit -m 'oo1'
+On branch new
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git status
+On branch new
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git commit -m 'not'
+[new 8ca7255] not
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+Switched to branch 'master'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout new
+Switched to branch 'new'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        New Text Document.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git commit -m 'LO'
+[new fa2ce3b] LO
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout maste
+error: pathspec 'maste' did not match any file(s) known to git
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+Switched to branch 'master'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout new
+Switched to branch 'new'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+Switched to branch 'master'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'newcommit'
+[master 21e469b] newcommit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Github doc.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout new
+Switched to branch 'new'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git merge master
+Merge made by the 'ort' strategy.
+ Github doc.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Github doc.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (new)
+$ git checkout master
+Switched to branch 'master'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git remote add origin https://github.com/Learnerrenrael/Newrepo.git
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout master
+Already on 'master'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git push -u origin master
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (9/9), 738 bytes | 246.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Learnerrenrael/Newrepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 654 bytes | 4.00 KiB/s, done.
+From https://github.com/Learnerrenrael/Newrepo
+ * branch            master     -> FETCH_HEAD
+   21e469b..c45363a  master     -> origin/master
+Updating 21e469b..c45363a
+Fast-forward
+ New Text Document.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'new'
+[master 37ea019] new
+ 1 file changed, 1 insertion(+)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 290 bytes | 290.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Learnerrenrael/Newrepo.git
+   c45363a..37ea019  master -> master
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$
