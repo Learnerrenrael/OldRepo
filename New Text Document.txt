@@ -1,0 +1,579 @@
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git log
+commit 7ddfe4203c8e3cee7b67677981af9824eb90ddbb (HEAD -> master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:44:50 2021 +0530
+
+    Comm
+
+commit 22d5005e1624c652d3928b961b61469b4d85642f
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:41:59 2021 +0530
+
+    Commiting files
+
+commit 37ea01996e271c7d0d96c9a66587763c2d9d9613 (origin/master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Sat Nov 27 22:07:30 2021 +0530
+
+    new
+
+commit c45363ab7e383705d1de44518327c4ee8c4d33fb
+Author: Learnerrenrael <64464430+Learnerrenrael@users.noreply.github.com>
+Date:   Sat Nov 27 22:04:15 2021 +0530
+
+    Update New Text Document.txt
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+HELP -- Press RETURN for more, or q when done...skipping...
+commit 7ddfe4203c8e3cee7b67677981af9824eb90ddbb (HEAD -> master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:44:50 2021 +0530
+
+    Comm
+
+commit 22d5005e1624c652d3928b961b61469b4d85642f
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:41:59 2021 +0530
+
+    Commiting files
+
+commit 37ea01996e271c7d0d96c9a66587763c2d9d9613 (origin/master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Sat Nov 27 22:07:30 2021 +0530
+
+    new
+
+commit c45363ab7e383705d1de44518327c4ee8c4d33fb
+Author: Learnerrenrael <64464430+Learnerrenrael@users.noreply.github.com>
+Date:   Sat Nov 27 22:04:15 2021 +0530
+
+    Update New Text Document.txt
+q
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+        modified:   New Text Document.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sssss
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm
+Github doc.txt         New Text Document.txt  git.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm
+Github doc.txt         New Text Document.txt  git.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm
+Github doc.txt         New Text Document.txt  git.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm
+Github doc.txt         New Text Document.txt  git.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm ^C
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm 'New Text Document.txt'
+error: the following file has local modifications:
+    New Text Document.txt
+(use --cached to keep the file, or -f to force removal)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git -f rm 'New Text Document.txt'
+unknown option: -f
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git rm -f 'New Text Document.txt'
+rm 'New Text Document.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sssss
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sssss
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff
+diff --git a/Github doc.txt b/Github doc.txt
+index 0ed7348..2b85e00 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -1,3 +1,5 @@
+ Hello world to Github!
+
+-Hello AGain to Github!
+\ No newline at end of file
++Hello AGain to Github!
++
++I am adding again to the file. This is a new addition.
+\ No newline at end of file
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ q
+bash: q: command not found
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD
+diff --git a/Github doc.txt b/Github doc.txt
+index 0ed7348..2b85e00 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -1,3 +1,5 @@
+ Hello world to Github!
+
+-Hello AGain to Github!
+\ No newline at end of file
++Hello AGain to Github!
++
++I am adding again to the file. This is a new addition.
+\ No newline at end of file
+diff --git a/New Text Document.txt b/New Text Document.txt
+deleted file mode 100644
+index dd30db3..0000000
+--- a/New Text Document.txt
++++ /dev/null
+@@ -1,5 +0,0 @@
+-hello
+-hi
+-
+-
+-This is the first file in the repository.
+\ No newline at end of file
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add .
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit
+[master a446aea] This is a commit made with the help of VS CODE.
+ 2 files changed, 3 insertions(+), 6 deletions(-)
+ delete mode 100644 New Text Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git log
+commit a446aea61c87800c5aceb8ff514b7769c3f10dd0 (HEAD -> master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:36:00 2021 +0530
+
+    This is a commit made with the help of VS CODE.
+
+commit 7ddfe4203c8e3cee7b67677981af9824eb90ddbb
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:44:50 2021 +0530
+
+    Comm
+
+commit 22d5005e1624c652d3928b961b61469b4d85642f
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 14:41:59 2021 +0530
+
+    Commiting files
+
+commit 37ea01996e271c7d0d96c9a66587763c2d9d9613 (origin/master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Sat Nov 27 22:07:30 2021 +0530
+
+    new
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD 'git.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD
+diff --git a/Github doc.txt b/Github doc.txt
+index 2b85e00..428b0a7 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -2,4 +2,6 @@ Hello world to Github!
+
+ Hello AGain to Github!
+
+-I am adding again to the file. This is a new addition.
+\ No newline at end of file
++I am adding again to the file. This is a new addition.
++
++A new file has been added to the tree.
+\ No newline at end of file
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD 'Github doc.txt'
+diff --git a/Github doc.txt b/Github doc.txt
+index 2b85e00..428b0a7 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -2,4 +2,6 @@ Hello world to Github!
+
+ Hello AGain to Github!
+
+-I am adding again to the file. This is a new addition.
+\ No newline at end of file
++I am adding again to the file. This is a new addition.
++
++A new file has been added to the tree.
+\ No newline at end of file
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DOC1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add 'Github doc.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Github doc.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DOC1.txt
+
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'New change'
+[master 928480f] New change
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DOC1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add 'DOC1.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'Adding DOC1'
+[master 437f4f5] Adding DOC1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 DOC1.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ nano
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD 'Github doc.txt'
+diff --git a/Github doc.txt b/Github doc.txt
+index 428b0a7..4bc378b 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -1,7 +1,8 @@
+-Hello world to Github!
++]
++Bye to Github!
+
+ Hello AGain to Github!
+
+ I am adding again to the file. This is a new addition.
+
+-A new file has been added to the tree.
+\ No newline at end of file
++A new file has been added to the tree.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add 'Github doc.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git commit -m 'Modified Github doc'
+[master ac6e1d4] Modified Github doc
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github doc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff -r HEAD
+diff --git a/Github doc.txt b/Github doc.txt
+index 4bc378b..e3c7745 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -6,3 +6,5 @@ Hello AGain to Github!
+ I am adding again to the file. This is a new addition.
+
+ A new file has been added to the tree.
++
++11 2 2 33 4 44 55 677
+\ No newline at end of file
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add Github doc.txt
+fatal: pathspec 'Github' did not match any files
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git add 'Github doc.txt'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git log
+commit ac6e1d40287b8438ff2422e6a9ff5fc0bd27fd2d (HEAD -> master)
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:57:29 2021 +0530
+
+    Modified Github doc
+
+commit 437f4f5b4421886390447ef3a2a1ca61a3ce89d3
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:49:18 2021 +0530
+
+    Adding DOC1
+
+commit 928480f3103368527d1f19f35cbfc26688df4eb7
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:45:55 2021 +0530
+
+    New change
+
+commit a446aea61c87800c5aceb8ff514b7769c3f10dd0
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:36:00 2021 +0530
+
+    This is a commit made with the help of VS CODE.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git show a446
+commit a446aea61c87800c5aceb8ff514b7769c3f10dd0
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:36:00 2021 +0530
+
+    This is a commit made with the help of VS CODE.
+
+diff --git a/Github doc.txt b/Github doc.txt
+index 0ed7348..2b85e00 100644
+--- a/Github doc.txt
++++ b/Github doc.txt
+@@ -1,3 +1,5 @@
+ Hello world to Github!
+
+-Hello AGain to Github!
+\ No newline at end of file
++Hello AGain to Github!
++
++I am adding again to the file. This is a new addition.
+\ No newline at end of file
+diff --git a/New Text Document.txt b/New Text Document.txt
+deleted file mode 100644
+index dd30db3..0000000
+--- a/New Text Document.txt
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git annotate 'git.txt'
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       1)
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       2)ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       3)$ cd
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       4)cd              cdosys.dll      cdprt.dll       cdpusersvc.dll
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       5)cdd.dll         cdp.dll         cdpsvc.dll
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       6)
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       7)ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       8)$ cd
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       9)cd              cdosys.dll      cdprt.dll       cdpusersvc.dll
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       10)cdd.dll         cdp.dll         cdpsvc.dll
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       11)
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       12)ASUS@DESKTOP-V6T8FT3 MINGW64 ~
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       13)$ c:
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       14)bash: c:: command not found
+22d5005e        (      Asus     2021-11-30 14:41:59 +0530       15)
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git show HEAD-1
+fatal: ambiguous argument 'HEAD-1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git show  HEAD~1
+commit 437f4f5b4421886390447ef3a2a1ca61a3ce89d3
+Author: Asus <mathlearner2002@gmail.com>
+Date:   Tue Nov 30 15:49:18 2021 +0530
+
+    Adding DOC1
+
+diff --git a/DOC1.txt b/DOC1.txt
+new file mode 100644
+index 0000000..b719293
+--- /dev/null
++++ b/DOC1.txt
+@@ -0,0 +1,2 @@
++Welcome BAck to GITHUB
++Your Journey has begun.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$ git diff HEAD~1 HEAD~2
+diff --git a/DOC1.txt b/DOC1.txt
+deleted file mode 100644
+index b719293..0000000
+--- a/DOC1.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Welcome BAck to GITHUB
+-Your Journey has begun.
+
+ASUS@DESKTOP-V6T8FT3 MINGW64 /d/Github/Gitf/local (master)
+$
